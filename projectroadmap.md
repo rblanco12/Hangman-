@@ -1,4 +1,4 @@
--[x] Each person should have an approved project topic (Turn in Ex 6 and ensure you are listed completely in the Teams Projects Spreadsheet). (DONE)
+- [x] Each person should have an approved project topic (Turn in Ex 6 and ensure you are listed completely in the Teams Projects Spreadsheet). (DONE)
 
 Each person should have established a Github account and joined our class organization (KSU-IS) in Github by accepting the invite email.  (COMPLETED)
 
