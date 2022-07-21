@@ -12,4 +12,7 @@ SPRINT 2
 
 - [x] Create an input for a new players name that will create a welcome message to begin the game.
 
-- [x]
+- [x] Create word list that players will have to guess letters for so that they can have a visual display of each word that is guessed correctly.
+
+- [x] Start making a visual hangman image that progresses as a player makes an incorrect guess.
+
