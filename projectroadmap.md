@@ -10,4 +10,6 @@
 
 SPRINT 2
 
-- [x] 
+- [x] Create an input for a new players name that will create a welcome message to begin the game.
+
+- [x]
