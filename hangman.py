@@ -69,7 +69,68 @@ def hangman():
               "|  \n"
               "|  \n"
               "_|___  \n"
-        print("Wrong. " +str(limit - count) + "Guesses remaining\n")
+        print("Wrong. " +str(limit - count) + "Attempts remaining\n")
               
-      elif
+      elif count == 2:
+              time.sleep(1)
+              print("   _____ \n"
+                  "  |     | \n"
+                  "  |     |\n"
+                  "  |      \n"
+                  "  |      \n"
+                  "  |      \n"
+                  "  |      \n"
+                  "__|__\n")
+            print("Wrong. " + str(limit - count) + " Attempts remaining\n")
+
+        elif count == 3:
+           time.sleep(1)
+           print("   _____ \n"
+                 "  |     | \n"
+                 "  |     |\n"
+                 "  |     | \n"
+                 "  |      \n"
+                 "  |      \n"
+                 "  |      \n"
+                 "__|__\n")
+           print("Wrong guess. " + str(limit - count) + " Attempts remaining\n")
+
+        elif count == 4:
+            time.sleep(1)
+            print("   _____ \n"
+                  "  |     | \n"
+                  "  |     |\n"
+                  "  |     | \n"
+                  "  |     O \n"
+                  "  |      \n"
+                  "  |      \n"
+                  "__|__\n")
+            print("Wrong guess. " + str(limit - count) + " 1 attempt remaining\n")
+
+        elif count == 5:
+            time.sleep(1)
+            print("   _____ \n"
+                  "  |     | \n"
+                  "  |     |\n"
+                  "  |     | \n"
+                  "  |     O \n"
+                  "  |    /|\ \n"
+                  "  |    / \ \n"
+                  "__|__\n")
+            print("Wrong. You lose!!!\n")
+            print("The Correct word was:",already_guessed,word)
+            play_loop()
+
+    if word == '_' * length:
+        print("Congratulations! You guessed correctly!")
+        play_loop()
+
+    elif count != limit:
+        hangman()
+
+
+main()
+
+
+hangman()
               
